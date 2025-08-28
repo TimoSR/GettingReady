@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank", "HackerRank\HackerRank.csproj", "{0066C0B0-A365-4716-93B9-40B7604DB6E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{4155C1CC-2163-40F9-A5AE-3ECEC280FDDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0066C0B0-A365-4716-93B9-40B7604DB6E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0066C0B0-A365-4716-93B9-40B7604DB6E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0066C0B0-A365-4716-93B9-40B7604DB6E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0066C0B0-A365-4716-93B9-40B7604DB6E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4155C1CC-2163-40F9-A5AE-3ECEC280FDDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4155C1CC-2163-40F9-A5AE-3ECEC280FDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4155C1CC-2163-40F9-A5AE-3ECEC280FDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4155C1CC-2163-40F9-A5AE-3ECEC280FDDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
