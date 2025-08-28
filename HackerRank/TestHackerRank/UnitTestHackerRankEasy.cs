@@ -26,11 +26,23 @@ public class UnitTestHackerRankEasy
         var b = new List<int> { 3, 2, 1 };
         const int expectedAlice = 1;
         const int expectedBob = 1;
-
-        var expected = new List<int> {expectedAlice, expectedBob}; 
-        
+        var expected = new List<int> { expectedAlice, expectedBob };
         var result = _hackerRank.compareTriplets(a, b);
-        
         Assert.Equal(expected, result);
+    }
+    
+    public static TheoryData<int[], int[], int[]> TestMatrix3 => new()
+    {
+        { [1, 2, 3], [3, 2, 1], [1, 1] },
+        { [5, 6, 7], [3, 6, 10], [1, 1]},
+        { [17, 28, 30], [99, 16, 8], [2, 1]},
+    };
+
+    [Theory]
+    [MemberData(nameof(TestMatrix3))]
+    public void CompareTriplets_Works3(int[] alice, int[] bob, int[] expected)
+    {
+        var result = _hackerRank.compareTriplets(alice.ToList(), bob.ToList());
+        Assert.Equal(expected.ToList(), result);
     }
 }
