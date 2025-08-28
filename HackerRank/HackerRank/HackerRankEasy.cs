@@ -18,4 +18,26 @@ public class HackerRankEasy
         
         return sum;
     }
+
+    public List<int> compareTriplets(List<int> a, List<int> b)
+    {
+        var alicePoint = 0;
+        var bobPoint = 0;
+
+        var numberOfPoints = a.Count;
+
+        for (var i = 0; i < numberOfPoints; i++)
+        {
+            if (a[i] > b[i])
+            {
+                alicePoint += 1;
+            }
+            else if (a[i] < b[i])
+            {
+                bobPoint += 1;
+            }
+        }
+
+        return [alicePoint, bobPoint];
+    }
 }

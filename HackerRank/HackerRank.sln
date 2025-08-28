@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank", "HackerRank\HackerRank.csproj", "{0066C0B0-A365-4716-93B9-40B7604DB6E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{4155C1CC-2163-40F9-A5AE-3ECEC280FDDC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHackerRank", "TestHackerRank\TestHackerRank.csproj", "{4155C1CC-2163-40F9-A5AE-3ECEC280FDDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
